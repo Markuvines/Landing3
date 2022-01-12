@@ -1,0 +1,12 @@
+&__title {
+  margin-bottom: 35px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  @media(max-width: 440px) {
+    font-size: 40px;
+  }
+}

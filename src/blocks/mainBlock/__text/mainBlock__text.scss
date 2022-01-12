@@ -1,0 +1,12 @@
+&__text {
+  margin-bottom: 35px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  @media(max-width: 960px) {
+   color: black;
+  }
+}

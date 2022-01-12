@@ -1,0 +1,8 @@
+&__button {
+  @media(max-width: 440px) {
+    margin: 10px 0;
+  }
+  @media(max-width: 353px) {
+    flex-grow: 1;
+  }
+}
