@@ -1,0 +1,15 @@
+.header {
+
+  @import './__logo/header__logo.scss';
+  @import './__body/header__body.scss';
+  @import './__navigation/header__navigation.scss';
+  @import './__navList/header__navList.scss';
+  @import './__navListItem/header__navListItem.scss'; 
+
+  a:visited {
+    color: #737373;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}

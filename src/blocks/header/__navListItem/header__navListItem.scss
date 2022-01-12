@@ -1,0 +1,12 @@
+&__navListItem {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  @media(max-width: 530px) {
+    margin: 0 5px;
+    font-size: 12px;
+  }
+}

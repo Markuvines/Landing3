@@ -1,0 +1,19 @@
+html {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 16px;
+}
+._container {
+  margin: 0 auto;
+  max-width: 1050px;
+}
+.wrapper {
+  padding: 0 5px;
+  min-height: 100%;
+  overflow: hidden;
+  &__header {
+    padding: 36px 0;
+  }
+}
+
+@import './blocks/header/header.scss';
