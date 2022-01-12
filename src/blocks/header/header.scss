@@ -1,4 +1,7 @@
 .header {
+  position: absolute;
+  z-index: 50;
+  width: 100%;
 
   @import './__logo/header__logo.scss';
   @import './__body/header__body.scss';
@@ -7,7 +10,7 @@
   @import './__navListItem/header__navListItem.scss'; 
 
   a:visited {
-    color: #737373;
+    color: inherit;
   }
   a:hover {
     text-decoration: underline;
