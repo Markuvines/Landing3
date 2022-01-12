@@ -1,0 +1,17 @@
+.button {
+  padding: 9px 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0D5C63;
+  box-sizing: border-box;
+  border-radius: 37px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #0D5C63;
+}
+@import './--orange/button--orange.scss';
