@@ -1,0 +1,12 @@
+.feature {
+  min-height: 242px;
+  max-width: 328px;
+  padding: 35px 40px;
+  transition: all 0.5s ease;
+  
+  @import './__image/feature__image.scss';
+  @import './__title/feature__title.scss';
+  @import './__text/feature__text.scss';
+  @import './__active/feature__active.scss';
+}
+@import './--active/feature--active.scss';
