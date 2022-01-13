@@ -1,0 +1,11 @@
+.expFeature {
+  padding: 30px;
+  max-width: 230px;
+  *:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  
+  @import './__img/expFeature__img.scss';
+  @import './__count/expFeature__count.scss';
+  @import './__text/expFeature__text.scss';
+}
