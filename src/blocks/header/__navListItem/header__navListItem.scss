@@ -5,8 +5,10 @@
   line-height: 24px;
   letter-spacing: 0.2px;
   color: #737373;
+  &:not(:last-child) {
+    margin-right: 21px;
+  }
   @media(max-width: 530px) {
-    margin: 0 5px;
     font-size: 12px;
   }
   @media(max-width: 870px) {
