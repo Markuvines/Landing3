@@ -19,15 +19,21 @@ html(lang="en")
             nav.header__navigation 
               ul.header__navList 
                 li.header__navListItem 
-                  a(href="") Home
+                  a(href="#") Home
                 li.header__navListItem 
-                  a(href="") Product
+                  a(href="#") Product
                 li.header__navListItem
-                  a(href="") Pricing
+                  a(href="#") Pricing
                 li.header__navListItem
-                  a(href="") Contact
+                  a(href="#") Contact
+                li.header__navListItem
+                  a(href="#") Contact
+                li.header__navListItem
+                  a(href="#") Contact
+                li.header__navListItem
+                  a(href="#") Contact
       main
-        .mainBlock.wrapper__mainBlock
+        section.mainBlock.wrapper__mainBlock
           .mainBlock__container._container 
             .mainBlock__body 
               h1.mainBlock__title Finance and Consultancy Solution
@@ -36,4 +42,29 @@ html(lang="en")
                 a(href="#").mainBlock__button.button.button--orange Get Quote Now
                 a(href="#").mainBlock__button.button Learn More
           .mainBlock__ibg._ibg 
-            img(src="./img/coverBig.jpg", alt="cover")
+            img(src="./img/cover.jpg", alt="cover")
+        section.features.wrapper__features 
+          .features__content._container
+            .feature.features__feature
+              .feature__content
+                .feature__image 
+                  img.feature__default(src="./img/features/EC.svg", alt="EC")
+                  img.feature__active(src="./img/features/ECwhite.svg", alt="")
+                h3.feature__title Environmental Consulting
+                .feature__text We focus on ergonomics and meeting you where you work.
+            .feature.features__feature
+                .feature__content
+                  .feature__image 
+                    img.feature__default(src="./img/features/FC.svg", alt="EC")
+                    img.feature__active(src="./img/features/FCwhite.svg", alt="")
+                  h3.feature__title Finance and consultancy 
+                  .feature__text Just type what's on your mind and we'll get you there.
+            .feature.features__feature
+                .feature__content
+                  .feature__image 
+                    img.feature__default(src="./img/features/FS.svg", alt="EC")
+                    img.feature__active(src="./img/features/FSwhite.svg", alt="")
+                  h3.feature__title Financial Services Consulting
+                  .feature__text The quick fox jumps over the lazy dog
+script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js")
+script(type='module' src="./main.js") 
