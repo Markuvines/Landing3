@@ -1,0 +1,8 @@
+.practAdviceFeature {
+  max-width: 230px;
+  background: white;
+  @import './__body/practAdviceFeature__body.scss';
+  @import './__title/practAdviceFeature__title.scss';
+  @import './__text/practAdviceFeature__text.scss';
+  @import './__img/practAdviceFeature__img.scss';
+}
