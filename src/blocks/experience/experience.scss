@@ -1,0 +1,9 @@
+.experience {
+  margin-top: -124px;
+  padding: 201px 0 80px 0;
+  background: #FAFAFA;
+  
+  @import './__blockHeader/experience__blockHeader.scss';
+  @import './__expFeatures/experience__expFeatures.scss';
+  @import './__expFeature/experience__expFeature.scss';
+}

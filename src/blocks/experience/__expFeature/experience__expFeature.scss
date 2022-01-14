@@ -1,0 +1,7 @@
+&__expFeature {
+  &:not(:last-child) {
+    @media (max-width: 960px) {
+      margin-bottom: 10px;
+    }
+  }
+}
