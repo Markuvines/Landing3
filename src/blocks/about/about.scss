@@ -1,0 +1,16 @@
+.about {
+  padding: 100px 0 136px 0;
+
+  @import './__blockHeader/about__blockHeader.scss';
+  @import './__body/about__body.scss';
+  @import './__video/about__video.scss';
+  @import './__discription/about__discription.scss';
+  @import './__aboutTitle/about__aboutTitle.scss';
+  @import './__aboutText/about__aboutText.scss';
+  @import './__aboutList/about__aboutList.scss';
+  @import './__aboutListItem/about__aboutListItem.scss';
+  @import './__listItemIcon/about__listItemIcon.scss';
+  @import './__listItemBody/about__listItemBody.scss';
+  @import './__listItemText/about__listItemText.scss';
+  @import './__listItemTitle/about__listItemTitle.scss';
+}

@@ -23,6 +23,12 @@ html {
     object-fit: cover;
   }
 }
+h5 {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
 .wrapper {
   min-height: 100%;
   overflow: hidden;
@@ -38,3 +44,4 @@ html {
 @import './blocks/experience/experience.scss';
 @import './blocks/practAdviceFeature/practAdviceFeature.scss';
 @import './blocks/practAdvice/practAdvice.scss';
+@import './blocks/about/about.scss';
