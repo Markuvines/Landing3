@@ -3,4 +3,7 @@
   align-items: flex-start;
   justify-content: space-between;
   flex-wrap: wrap;
+  @media (max-width: 993px) {
+    justify-content: center;
+  }
 }

@@ -1,0 +1,7 @@
+&__feature {
+  @media(max-width: 1000px) {
+    &:not(:last-child) {
+      margin-bottom: 10px
+    }
+  }
+}
