@@ -1,6 +1,7 @@
 .clients {
-  padding: 57px 0;
+  padding: 57px 0 137px 0;
+  background: #FAFAFA;
 
-  @import './_content/clients__content.scss';
+  @import './__content/clients__content.scss';
   @import './__image/clients__image.scss';
 }
