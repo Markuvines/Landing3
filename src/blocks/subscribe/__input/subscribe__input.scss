@@ -1,0 +1,19 @@
+&__input {
+  padding: 0;
+  padding-left: 20px;
+  width: 333px;
+  height: 58px;
+  
+  border: 1px solid #E6E6E6;
+  border-right: 0;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  &::placeholder {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+  }
+}
