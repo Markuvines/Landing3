@@ -1,6 +1,8 @@
 &__expFeature {
+  width: 230px;
+  margin: 0 5px;
   &:not(:last-child) {
-    @media (max-width: 960px) {
+    @media (max-width: 959px) {
       margin-bottom: 10px;
     }
   }

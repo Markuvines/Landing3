@@ -1,5 +1,10 @@
 &__expFeatures {
+  margin: 0 -5px;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   flex-wrap: wrap;
+  @media (max-width: 959px) {
+    justify-content: center;
+  }
 }
