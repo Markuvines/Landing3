@@ -1,0 +1,6 @@
+.clients {
+  padding: 57px 0;
+
+  @import './_content/clients__content.scss';
+  @import './__image/clients__image.scss';
+}
