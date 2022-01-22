@@ -3,6 +3,9 @@ html {
   font-weight: bold;
   font-size: 16px;
 }
+body {
+  background: #FAFAFA;
+}
 ._container {
   padding: 0 5px;
   margin: 0 auto;
@@ -47,3 +50,4 @@ h5 {
 @import './blocks/about/about.scss';
 @import './blocks/clients/clients.scss';
 @import './blocks/subscribe/subscribe.scss';
+@import './blocks/line/line.scss';
