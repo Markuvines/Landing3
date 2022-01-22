@@ -11,4 +11,8 @@
   letter-spacing: 0.2px;
   color: #FFFFFF;
   cursor: pointer;
+  @media(max-width: 425px) {
+    width: 100%;
+    border-radius: 5px;
+  }
 }

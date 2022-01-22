@@ -3,7 +3,11 @@
   background: #17213C;
   border-radius: 2px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin: 0 auto;
   max-width: 986px;
+  @media(max-width: 425px) {
+    padding: 30px 10px;
+  }
 }

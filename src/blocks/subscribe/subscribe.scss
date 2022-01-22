@@ -1,8 +1,10 @@
 .subscribe {
+  position: relative;
   margin-top: -62px;
-  
+
   @import './__form/subscribe__form.scss';
   @import './__title/subscribe__title.scss';
+  @import './__body/subscribe__body.scss';
   @import './__input/subscribe__input.scss';
   @import './__button/subscribe__button.scss';
 }
