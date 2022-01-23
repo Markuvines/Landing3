@@ -1,0 +1,19 @@
+.contact--active {
+  padding: 80px 40px;
+  background: #252B42;
+ // box-sizing: content-box;
+  .contact__active {
+    opacity: 1;
+  }
+  .contact__email {
+    color: white;
+  }
+  .contact__text {
+    color: white;
+  }
+  .contact__button {
+    color: white;
+    background: #252B42;
+    border: 1px solid white;
+  }
+}

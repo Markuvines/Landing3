@@ -1,0 +1,11 @@
+&__email {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  &:last-of-type {
+    margin-bottom: 15px;
+  }
+}

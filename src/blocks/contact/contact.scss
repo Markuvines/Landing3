@@ -1,0 +1,11 @@
+.contact {
+  padding: 50px 40px;
+  background: #FFFFFF;
+  transition: all 0.5s ease;
+  @import './__image/contact__image.scss';
+  @import './__active/contact__active.scss';
+  @import './__email/contact__email.scss';
+  @import './__text/contact__text.scss';
+  @import './__button/contact__button.scss';
+}
+@import './--active/contact--active.scss';
