@@ -1,0 +1,10 @@
+.contactUs {
+  padding: 40px 0;
+  background: #FAFAFA;
+
+  @import './__content/contactUs__content.scss';
+  @import './__body/contactUs__body.scss';
+  @import './__title/contactUs__title.scss';
+  @import './__text/contactUs__text.scss';
+  @import './__button/contactUs__button.scss';
+}

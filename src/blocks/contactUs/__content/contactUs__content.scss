@@ -1,0 +1,11 @@
+&__content {
+  display: flex;
+  align-items: center;
+  @media(max-width: 1024px) {
+    justify-content: space-between;
+  }
+  @media(max-width: 425px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,14 @@
+&__title {
+  margin: 0 0 10px 0;
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+  @media(max-width: 425px) {
+    font-size: 18px;
+    text-align: center;
+  }
+  @media(max-width: 375px) {
+   font-size: 15px;
+  }
+}

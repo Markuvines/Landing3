@@ -1,0 +1,13 @@
+&__button {
+  padding: 15px 40px;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  background: #FF7B47;
+  border-radius: 5px;
+  @media(max-width: 425px) {
+   width: 80%;
+  }
+}
