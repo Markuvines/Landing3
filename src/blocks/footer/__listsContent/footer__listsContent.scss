@@ -1,0 +1,9 @@
+&__listsContent {
+  display: flex;
+  @media (max-width: 1024px) {
+    justify-content: center;
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}

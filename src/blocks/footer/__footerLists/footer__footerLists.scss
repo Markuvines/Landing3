@@ -1,0 +1,23 @@
+&__footerList {
+  margin: 0 30px 0 0;
+  flex: 0 1 152px;
+
+  @media (max-width: 768px) {
+    flex-basis: auto;
+    margin: 0 0 10px 0;
+    text-align: center;
+    border-bottom: 1px solid white;
+  }
+
+  .footerList__list {
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .footerList__listTitle {
+    @media (max-width: 768px) {
+      margin: 0;
+    }
+  }
+}
