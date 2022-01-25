@@ -1,3 +1,6 @@
 &__link {
   color: #FFFFFF;
+  &:hover {
+    text-decoration: underline;
+  }
 }

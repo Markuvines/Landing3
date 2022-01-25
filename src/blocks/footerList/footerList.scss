@@ -1,7 +1,6 @@
 .footerList {
-  background-color: black;
-
   @import './__listTitle/footerList__listTitle.scss';
   @import './__item/footerList__item.scss';
   @import './__link/footerList__link.scss';
+  @import './--contacts/footerList--contacts.scss';
 }
