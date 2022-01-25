@@ -1,0 +1,7 @@
+&__copyrightContent {
+  display: flex;
+  @media (max-width: 425px) {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,15 @@
+&__copyrightText {
+  text-align: center;
+  margin: 0 445px 0 0;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  @media (max-width: 768px) {
+    margin: 0 200px 0 0;
+  }
+  @media (max-width: 425px) {
+    margin: 0 0 20px 0;
+  }
+}
