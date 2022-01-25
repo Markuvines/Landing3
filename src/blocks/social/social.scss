@@ -1,0 +1,7 @@
+.social {
+  display: flex;
+  align-items: center;
+  @import './__item/social__item.scss';
+  @import './__link/social__link.scss';
+  @import './__image/social__image.scss';
+}
